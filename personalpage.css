@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: palegoldenrod;;
+}
+
+nav {
+    background-color: pink;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: deeppink;
+}
+
+section {
+    padding: 20px;
+    text-align: justify;
+}
+
+#about h1 {
+    text-align: center;
+    color: deeppink;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto 20px;
+    line-height: 1.6;
+    color: deeppink;
+}
+
+#about img {
+    display: block;
+    margin: 0 auto;
+    max-width: 260px;
+    height: auto;
+
+}
+.image-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top:80px;
+}
+
+.image1,
+.image2,
+.image3,
+.image4
+{
+    width: 230px;
+    height: auto;
+    border-radius: 4px;
+}
+.text-box {
+    width: 300px; /* ја ограничува ширината */
+    white-space: nowrap; /* не дозволува преминување во нов ред */
+    overflow: hidden;     /* го скрива вишокот */
+    text-overflow: ellipsis; /* додава "..." ако текстот е предолг */
+}
+#home{
+    margin-top: 287px;
+    font-size: 55px;
+    margin-left: 285px;
+    color: deeppink;
+}
+
+
+#hobby > p{
+    width: 900px;
+    margin-left: 300px;
+    margin-top: 30px;
+    padding-top: 50px;
+    color:deeppink;
+}
+
+#hobby > h1{
+    margin-left: 700px;
+    color: deeppink;
+}
+.contact-info {
+    font-size: 22px; /* Малку поголем фонт */
+    margin-top: 20px;
+    text-align: center; /* Центрирање на текстот */
+}
+
+.contact-info p {
+    margin: 10px 0;
+    padding-top: 10px;
+    color: #f38f9d;
+}
+
+.contact-info strong {
+    color: #f11e8c;
+}
+body > div.header > h1{
+    text-align: center;
+    color: deeppink;
+}
+body > div.contact-info{
+    margin-top: 100px;
+}
+body > div.header > h1{
+    padding-top: 100px;
+}
